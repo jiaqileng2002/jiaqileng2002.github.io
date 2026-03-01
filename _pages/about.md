@@ -26,7 +26,7 @@ latest_posts:
 
 ### About Me
 
-Hi! I'm **Jiaqi Leng (冷佳骐)**, currently a Master's student in Electronic and Information Engineering at **Fudan University**, where I am fortunately advised by [Prof. Zuxuan Wu](https://zxwu.azurewebsites.net/). Prior to this, I received my B.S. in Mathematics and Applied Mathematics from **Ocean University of China** with the highest honor (**National Scholarship**, top 0.2%).
+Hi! I'm **Jiaqi Leng (冷佳骐)**, currently a second-year Master's student in Electronic and Information Engineering at **Fudan University**, where I am fortunately advised by [Prof. Zuxuan Wu](https://zxwu.azurewebsites.net/). Prior to this, I received my B.S. in Mathematics and Applied Mathematics from **Ocean University of China** with the highest honor (**National Scholarship**, top 0.2%).
 
 My overarching research goal is to advance **Spatial Intelligence** by bridging mathematical principles with modern vision frameworks. My research trajectory evolves along a structured path: 
 
