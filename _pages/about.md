@@ -14,7 +14,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
@@ -26,7 +26,7 @@ latest_posts:
 
 ### About Me
 
-Hi! I'm **Jiaqi Leng (冷佳骐)**, currently a Master's student in Electronic and Information Engineering at **Fudan University**, where I am fortunately advised by [Prof. Zuxuan Wu]((https://zxwu.azurewebsites.net/). Prior to this, I received my B.S. in Mathematics and Applied Mathematics from **Ocean University of China** with the highest honor (**National Scholarship**, top 0.2%).
+Hi! I'm **Jiaqi Leng (冷佳骐)**, currently a Master's student in Electronic and Information Engineering at **Fudan University**, where I am fortunately advised by [Prof. Zuxuan Wu](https://zxwu.azurewebsites.net/). Prior to this, I received my B.S. in Mathematics and Applied Mathematics from **Ocean University of China** with the highest honor (**National Scholarship**, top 0.2%).
 
 My overarching research goal is to advance **Spatial Intelligence** by bridging mathematical principles with modern vision frameworks. My research trajectory evolves along a structured path: 
 
