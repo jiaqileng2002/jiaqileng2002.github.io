@@ -4,7 +4,7 @@ cv:
   email: jqleng24@m.fudan.edu.cn
   location: Shanghai, China
   image: ""
-  summary: "PATH: Physical Constraints → Generative Priors → Dynamic SLAM → Spatial Intelligence"
+
 
   sections:
     Education:
@@ -14,120 +14,18 @@ cv:
         studyType: M.S.
         start_date: 2024-09
         end_date: 2027-06
-        score: "GPA: 3.94/4.0"
         highlights:
           - "**Advisor:** Prof. Zuxuan Wu"
 
       - institution: Ocean University of China
         location: Qingdao, China
         area: Mathematics and Applied Mathematics
-        studyType: B.S. (**Honorary Degree**)
+        studyType: B.S. (Honorary Degree)
         start_date: 2020-09
         end_date: 2024-06
-        score: "GPA: 3.58 / 4.0"
-
-    Publications:
-      - title: "FNIN: A FNO-based Numerical Integration Network for Surface-form-gradients"
-        authors:
-          - "**Jiaqi Leng**"
-          - "Yakun Ju"
-          - "Yuanxu Duan"
-          - "Jiangnan Zhang"
-          - "Qingxuan Lv"
-          - "Zuxuan Wu"
-          - "Hao Fan"
-        publisher: AAAI-25 Oral
-        releaseDate: 2025
-        summary: "Formulated **geometric constraints** as iterative **PDEs** and utilized a FNO-based architecture to achieve **discretization invariance** across arbitrary resolutions. Designed detail-weighted loss and least-square equations to handle surface discontinuities."
-
-      - title: "PSD: Leveraging 2D Rewards to Align Text-to-3D Generation with Human Preference"
-        authors:
-          - "**Jiaqi Leng**"
-          - "Shuyuan Tu"
-          - "Haidong Cao"
-          - "Sicheng Xie"
-          - "Daoguo Dong"
-          - "Zuxuan Wu"
-          - "Yu-Gang Jiang"
-        publisher: ICML-26 Sub.
-        releaseDate: 2026
-        summary: "Proposed a training-free alignment framework using CFG-style 2D reward guidance, bypassing the need for additional reward model training or **diffusion priors**."
-
-      - title: "Human2robot: Learning Robot Actions from Paired Videos"
-        authors:
-          - "**S. Xie**"
-          - "..."
-          - "**Jiaqi Leng**"
-          - "et al."
-        publisher: AAAI-26 Oral
-        releaseDate: 2026
-
-      - title: "Stable Offline Hand-Eye Calibration for any Robot"
-        authors:
-          - "**S. Xie**"
-          - "..."
-          - "**Jiaqi Leng**"
-          - "et al."
-        publisher: arXiv-25.11
-        releaseDate: 2025
-
-      - title: "Multilevel Inverse Patchmatch Network for Underwater Stereo Matching"
-        authors:
-          - "**Jiaqi Leng**"
-          - "et al."
-        publisher: JMSE-23
-        releaseDate: 2023
-
-      - title: "Underwater Stereo Matching via Recurrent Field Transforms"
-        authors:
-          - "**Jiaqi Leng**"
-          - "et al."
-        publisher: ICGIP-22
-        releaseDate: 2022
-
-    Awards:
-      - title: Opple Lighting Scholarship
-        awarder: Merit scholarship for outstanding graduate students at Fudan
-        date: 2025
-
-      - title: National Scholarship
-        awarder: Highest honor, Top 0.2% undergraduates in China
-        date: 2022
-
-      - title: Outstanding Graduate of Shandong Province
-        awarder: Awarded to top 1% graduates
-        date: 2024
-
-      - title: Outstanding Graduation Thesis
-        awarder: Awarded to top 5% of the graduating class
-        date: 2024
-
-      - title: Academic First-Class Scholarship
-        awarder: Twice at Ocean University of China (Top 5%)
-        date: 2021, 2022
-
-    Projects:
-      - name: Robust (Near-)Real-time GS-SLAM with Learned Motion Priors
-        start_date: 2024
-        end_date: 2026-05 (Expected)
-        highlights:
-          - "Developing a **dynamic GS-SLAM** system that **decouples 3D motion** via point tracking models (**motion priors**) to drive dynamic Gaussian primitives."
-          - "Investigating the bi-directional benefits of RGB supervision to enhance **motion priors** and overall **SLAM robustness**."
-
-      - name: Generative Foundation Priors for Physics-Constrained 3D Reconstruction
-        start_date: 2024
-        end_date: Exploratory
-        highlights:
-          - "Exploring the fusion of **generative foundation models** with **physical constraints** (e.g., **PDEs**) to address data scarcity and dimensionality issues."
-
-    Skills:
-      - name: Programming Languages
-        keywords: "Python, C++, Matlab, R"
-      - name: Mathematical Interest
-        keywords: "Matrix Analysis, SDE/ODE, Lie Group"
-      - name: Research Frameworks
-        keywords: "[NeuralOperator](https://github.com/neuraloperator/neuraloperator), [Threestudio](https://github.com/threestudio-project/threestudio), [ORB-SLAM3](https://github.com/UZ-SLAMLab/ORB_SLAM3)"
 
     Languages:
       - name: English
         summary: "IELTS 7.0 (Listening: 8.5, Reading: 7.0, Writing: 6.5, Speaking: 6.0)"
+      - name: Chinese
+        summary: "Native"
