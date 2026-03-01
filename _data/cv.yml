@@ -39,7 +39,8 @@ cv:
         journal: "AAAI-25 Oral"
         date: 2025
         highlights:
-          - "Formulated **geometric constraints** as iterative **PDEs** and utilized a FNO-based architecture."
+          - "Formulated **geometric constraints** as iterative **PDEs** and utilized a FNO-based architecture to achieve **discretization invariance** across arbitrary resolutions."
+          - "Designed detail-weighted loss and least-square equations to handle surface discontinuities, significantly outperforming traditional numerical solvers."
 
       - title: "PSD: Leveraging 2D Rewards to Align Text-to-3D Generation with Human Preference"
         authors:
@@ -52,6 +53,9 @@ cv:
           - "Yu-Gang Jiang"
         journal: "ICML-26 Sub."
         date: 2026
+        highlights:
+          - "Proposed a training-free alignment framework using CFG-style 2D reward guidance, bypassing the need for additional reward model training or **diffusion priors**."
+          - "Introduced a negative embedding optimization strategy to enhance the alignment, outperforming state-of-the-art methods in human preference alignment."
 
       - title: "Other Publications"
         highlights:
@@ -62,38 +66,40 @@ cv:
 
     Ongoing_Projects:
       - title: "Robust (Near-)Real-time GS-SLAM with Learned Motion Priors"
-        date: "2024 - 2026"
+        date: "2026.05 Expected"
         highlights:
-          - "Developing a **dynamic GS-SLAM** system using point tracking models (**motion priors**)."
+          - "Developing a **dynamic GS-SLAM** system that **decouples 3D motion** via point tracking models (**motion priors**) to drive dynamic Gaussian primitives."
+          - "Investigating the bi-directional benefits of RGB supervision to enhance **motion priors** and overall **SLAM robustness** in complex, non-rigid dynamic scenes."
 
       - title: "Generative Foundation Priors for Physics-Constrained 3D Reconstruction"
-        date: "Present"
+        date: "Exploratory"
         highlights:
-          - "Exploring the fusion of **generative foundation models** with **physical constraints** (e.g., **PDEs**)."
+          - "Exploring the fusion of **generative foundation models** with **physical constraints** (e.g., **PDEs**) to address data scarcity and dimensionality issues."
+          - "Evaluating the feasibility of utilizing web-scale image and video datasets as a rich prior source for **physics-constrained** space reconstruction."
 
     Honors_and_Awards:
       - title: "Opple Lighting Scholarship"
-        label: "Fudan University"
+        label: "Merit scholarship for outstanding graduate students at Fudan"
         date: 2025
       - title: "National Scholarship"
-        label: "Top 0.2% undergraduates in China"
+        label: "Highest honor, Top 0.2% undergraduates in China"
         date: 2022
       - title: "Outstanding Graduate of Shandong Province"
-        label: "Top 1%"
+        label: "Awarded to top 1% graduates"
         date: 2024
       - title: "Outstanding Graduation Thesis"
-        label: "Top 5%"
+        label: "Awarded to top 5% of the graduating class"
         date: 2024
       - title: "Academic First-Class Scholarship"
-        label: "Twice at Ocean University of China"
+        label: "Twice at Ocean University of China (Top 5%)"
         date: "2021, 2022"
 
     Technical_Skills:
       - label: "Languages"
         details: "Python, C++, Matlab, R"
-      - label: "Mathematics"
+      - label: "Mathematical Interest"
         details: "Matrix Analysis, SDE/ODE, Lie Group"
-      - label: "Frameworks"
-        details: "[NeuralOperator](https://github.com/neuraloperator/neuraloperator), [Threestudio](https://github.com/threestudio-project/threestudio), [ORB-SLAM3](https://github.com/UZ-SLAMLab/ORB_SLAM3)"
+      - label: "Research Frameworks"
+        details: "[NeuralOperator](https://github.com/neuraloperator/neuraloperator) (FNOs), [Threestudio](https://github.com/threestudio-project/threestudio) (3D Generation), [ORB-SLAM3](https://github.com/UZ-SLAMLab/ORB_SLAM3) (SLAM System)"
       - label: "English"
-        details: "IELTS 7.0 (L:8.5, R:7.0, W:6.5, S:6.0)"
+        details: "IELTS 7.0 (Listening: 8.5, Reading: 7.0, Writing: 6.5, Speaking: 6.0)"
