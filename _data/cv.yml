@@ -1,126 +1,82 @@
-cv:
-  name: Jiaqi Leng (冷佳骐)
-  label: M.S. in Electronic and Information Engineering
-  email: jqleng24@m.fudan.edu.cn
-  location: Shanghai, China
-  image: ""
-  # 还原 LaTeX 中的 Path 样式
-  summary: >
-    <div style="text-align: center; border: 0.5pt solid #808080; padding: 5px; border-radius: 2px; background-color: #ffffff; display: inline-block; width: 100%;">
-      <code style="font-weight: bold; color: #4d4d4d;">PATH:</code> 
-      <code style="font-weight: bold; color: #263c5e;">Physical Constraints</code> → 
-      <code style="font-weight: bold; color: #263c5e;">Generative Priors</code> → 
-      <code style="font-weight: bold; color: #263c5e;">Dynamic SLAM</code> → 
-      <code style="font-weight: bold; color: #4e1a1a;">Spatial Intelligence</code>
-    </div>
+# 注意：直接以列表形式开始，这是 al-folio 最稳定的通用渲染方式
+- title: Education
+  type: list
+  contents:
+    - institution: Fudan University
+      location: Shanghai, China
+      year: Sep. 2024 - June 2027
+      description:
+        - "M.S. in Electronic and Information Engineering (**GPA: 3.94/4.0**)"
+        - "**Advisor:** Prof. Zuxuan Wu"
 
-  social_networks:
-    - network: Email
-      username: jqleng24@m.fudan.edu.cn
-      url: mailto:jqleng24@m.fudan.edu.cn
+    - institution: Ocean University of China
+      location: Qingdao, China
+      year: Sep. 2020 - June 2024
+      description:
+        - "B.S. in Mathematics and Applied Mathematics (**Honorary Degree, GPA: 3.58 / 4.0**)"
 
-  sections:
-    Education:
-      - institution: Fudan University
-        location: Shanghai, China
-        area: Electronic and Information Engineering
-        studyType: M.S.
-        score: "**GPA: 3.94/4.0**"
-        start_date: Sep. 2024
-        end_date: June 2027
-        highlights:
-          - "**Advisor:** Prof. Zuxuan Wu"
+- title: Publications
+  type: list
+  contents:
+    - title: "FNIN: A FNO-based Numerical Integration Network for Surface-form-gradients"
+      authors: "**Jiaqi Leng**, Yakun Ju, Yuanxu Duan, Jiangnan Zhang, Qingxuan Lv, Zuxuan Wu, Hao Fan"
+      publisher: "AAAI-25 Oral"
+      year: 2025
+      description:
+        - "Formulated **geometric constraints** as iterative **PDEs** and utilized a FNO-based architecture to achieve **discretization invariance** across arbitrary resolutions."
+        - "Designed detail-weighted loss and least-square equations to handle surface discontinuities."
 
-      - institution: Ocean University of China
-        location: Qingdao, China
-        area: Mathematics and Applied Mathematics
-        studyType: B.S. (**Honorary Degree**)
-        score: "**GPA: 3.58 / 4.0**"
-        start_date: Sep. 2020
-        end_date: June 2024
+    - title: "PSD: Leveraging 2D Rewards to Align Text-to-3D Generation with Human Preference"
+      authors: "**Jiaqi Leng**, Shuyuan Tu, Haidong Cao, Sicheng Xie, Daoguo Dong, Zuxuan Wu, Yu-Gang Jiang"
+      publisher: "ICML-26 Sub."
+      year: 2026
+      description:
+        - "Proposed a training-free alignment framework using CFG-style 2D reward guidance."
 
-    Publications:
-      - title: "FNIN: A FNO-based Numerical Integration Network for Surface-form-gradients"
-        authors: "**Jiaqi Leng**, Yakun Ju, Yuanxu Duan, Jiangnan Zhang, Qingxuan Lv, Zuxuan Wu, Hao Fan"
-        publisher: "AAAI-25 Oral"
-        releaseDate: 2025
-        highlights:
-          - "Formulated **geometric constraints** as iterative **PDEs** and utilized a FNO-based architecture to achieve **discretization invariance** across arbitrary resolutions."
-          - "Designed detail-weighted loss and least-square equations to handle surface discontinuities, significantly outperforming traditional numerical solvers."
+    - title: "Other Publications"
+      description:
+        - "**S. Xie**, ..., **Jiaqi Leng**, et al. \"Human2robot: Learning Robot Actions from Paired Videos.\" (AAAI-26 Oral)"
+        - "**S. Xie**, ..., **Jiaqi Leng**, et al. \"Stable Offline Hand-Eye Calibration for any Robot.\" (arXiv-25.11)"
+        - "**Jiaqi Leng**, et al. \"Multilevel Inverse Patchmatch Network for Underwater Stereo Matching.\" (JMSE-23)"
+        - "**Jiaqi Leng**, et al. \"Underwater Stereo Matching via Recurrent Field Transforms.\" (ICGIP-22)"
 
-      - title: "PSD: Leveraging 2D Rewards to Align Text-to-3D Generation with Human Preference"
-        authors: "**Jiaqi Leng**, Shuyuan Tu, Haidong Cao, Sicheng Xie, Daoguo Dong, Zuxuan Wu, Yu-Gang Jiang"
-        publisher: "ICML-26 Sub."
-        releaseDate: 2026
-        highlights:
-          - "Proposed a training-free alignment framework using CFG-style 2D reward guidance, bypassing the need for additional reward model training or **diffusion priors**."
-          - "Introduced a negative embedding optimization strategy to enhance the alignment, outperforming state-of-the-art methods in human preference alignment."
+- title: Ongoing Projects
+  type: list
+  contents:
+    - title: "Robust (Near-)Real-time GS-SLAM with Learned Motion Priors"
+      year: "2024 - 2026.05 Expected"
+      description:
+        - "Developing a **dynamic GS-SLAM** system that **decouples 3D motion** via point tracking models (**motion priors**)."
 
-      - title: "Human2robot: Learning Robot Actions from Paired Videos"
-        authors: "**S. Xie**, ..., **Jiaqi Leng**, et al."
-        publisher: "AAAI-26 Oral"
+    - title: "Generative Foundation Priors for Physics-Constrained 3D Reconstruction"
+      year: "Present"
+      description:
+        - "Exploring the fusion of **generative foundation models** with **physical constraints** (e.g., **PDEs**)."
 
-      - title: "Stable Offline Hand-Eye Calibration for any Robot"
-        authors: "**S. Xie**, ..., **Jiaqi Leng**, et al."
-        publisher: "arXiv-25.11"
+- title: Honors & Awards
+  type: list
+  contents:
+    - title: "Opple Lighting Scholarship"
+      location: "Fudan University"
+      year: "2025"
+    - title: "National Scholarship (Top 0.2%)"
+      location: "China"
+      year: "2022"
+    - title: "Outstanding Graduate of Shandong Province (Top 1%)"
+      year: "2024"
+    - title: "Outstanding Graduation Thesis (Top 5%)"
+      year: "2024"
+    - title: "Academic First-Class Scholarship (Twice)"
+      year: "2021, 2022"
 
-      - title: "Multilevel Inverse Patchmatch Network for Underwater Stereo Matching"
-        authors: "**Jiaqi Leng**, et al."
-        publisher: "JMSE-23"
-
-      - title: "Underwater Stereo Matching via Recurrent Field Transforms"
-        authors: "**Jiaqi Leng**, et al."
-        publisher: "ICGIP-22"
-
-    Ongoing Projects:
-      - name: "Robust (Near-)Real-time GS-SLAM with Learned Motion Priors"
-        start_date: "2024"
-        end_date: "2026.05 Expected"
-        highlights:
-          - "Developing a **dynamic GS-SLAM** system that **decouples 3D motion** via point tracking models (**motion priors**) to drive dynamic Gaussian primitives."
-          - "Investigating the bi-directional benefits of RGB supervision to enhance **motion priors** and overall **SLAM robustness** in complex, non-rigid dynamic scenes."
-
-      - name: "Generative Foundation Priors for Physics-Constrained 3D Reconstruction"
-        start_date: "Present"
-        end_date: "Exploratory"
-        highlights:
-          - "Exploring the fusion of **generative foundation models** with **physical constraints** (e.g., **PDEs**) to address data scarcity and dimensionality issues."
-          - "Evaluating the feasibility of utilizing web-scale image and video datasets as a rich prior source for **physics-constrained** space reconstruction."
-
-    Honors & Awards:
-      - title: "Opple Lighting Scholarship"
-        awarder: "Merit scholarship for outstanding graduate students at Fudan"
-        date: "2025"
-
-      - title: "National Scholarship"
-        awarder: "Highest honor, Top 0.2% undergraduates in China"
-        date: "2022"
-
-      - title: "Outstanding Graduate of Shandong Province"
-        awarder: "Awarded to top 1% graduates"
-        date: "2024"
-
-      - title: "Outstanding Graduation Thesis"
-        awarder: "Awarded to top 5% of the graduating class"
-        date: "2024"
-
-      - title: "Academic First-Class Scholarship"
-        awarder: "Twice at Ocean University of China (Top 5%)"
-        date: "2021, 2022"
-
-    Technical Skills:
-      - name: "Languages"
-        summary: "Python, C++, Matlab, R"
-      - name: "Mathematical Interest"
-        summary: "Matrix Analysis, SDE/ODE, Lie Group"
-      - name: "Research Frameworks"
-        summary: "[NeuralOperator](https://github.com/neuraloperator/neuraloperator) (FNOs), [Threestudio](https://github.com/threestudio-project/threestudio) (3D Generation), [ORB-SLAM3](https://github.com/UZ-SLAMLab/ORB_SLAM3) (SLAM System)"
-      - name: "English"
-        summary: "IELTS 7.0 (Listening: 8.5, Reading: 7.0, Writing: 6.5, Speaking: 6.0)"
-
-    # 如果需要显示语言模块
-    Languages:
-      - name: Chinese
-        summary: Native
-      - name: English
-        summary: IELTS 7.0
+- title: Technical Skills
+  type: list
+  contents:
+    - name: "Languages"
+      description: "Python, C++, Matlab, R"
+    - name: "Mathematics"
+      description: "Matrix Analysis, SDE/ODE, Lie Group"
+    - name: "Frameworks"
+      description: "[NeuralOperator](https://github.com/neuraloperator/neuraloperator), [Threestudio](https://github.com/threestudio-project/threestudio), [ORB-SLAM3](https://github.com/UZ-SLAMLab/ORB_SLAM3)"
+    - name: "English"
+      description: "IELTS 7.0 (L:8.5, R:7.0, W:6.5, S:6.0)"
