@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+📄 [Mar 2026] Our new paper "**Preference Score Distillation: Leveraging 2D Rewards to Align Text-to-3D Generation with Human Preference**" is now available on arXiv!
