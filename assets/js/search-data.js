@@ -391,8 +391,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-mar-2026-our-new-paper-preference-score-distillation-leveraging-2d-rewards-to-align-text-to-3d-generation-with-human-preference-is-now-available-on-arxiv",
+          title: '📄 [Mar 2026] Our new paper “Preference Score Distillation: Leveraging 2D Rewards to...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
