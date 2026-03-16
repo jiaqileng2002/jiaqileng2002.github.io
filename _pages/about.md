@@ -35,3 +35,6 @@ My overarching research goal is to advance **Spatial Intelligence** by bridging 
 I believe that grounding 3D vision in physical and geometric realities is the key to creating intelligent agents that truly understand and interact with the dynamic world.
 
 🔥 **I am actively seeking Ph.D. opportunities for Fall 2027 in 3D Vision.** If our research interests align, please feel free to reach out via [Email](mailto:jqleng24@m.fudan.edu.cn)!
+
+
+<script async type="text/javascript" id="clstr_globe" src="https://clustrmaps.com/globe.js?d=fo3Xj7olZF7YZg5_yH_7P-P368nPCpN7U3VyR8fB2Ew"></script>
