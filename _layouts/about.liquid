@@ -81,7 +81,12 @@ layout: default
 
 <!-- 访客地图容器 -->
 <div style="margin-top: 3rem; border-top: 1px solid var(--global-divider-color); padding-top: 2rem;">
-  <div style="width: 200px; margin: 0 auto;"> <!-- 这里 width: 200px 控制大小，可以自行修改 -->
-    <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=fo3Xj7olZF7YZg5_yH_7P-P368nPCpN7U3VyR8fB2Ew&cl=ffffff&w=a"></script>
+  <div style="width: 250px; margin: 0 auto; text-align: center;"> 
+    <!-- 使用 <a> + <img> 替代 <script>，这样就不会被安全策略拦截 -->
+    <a href="https://clustrmaps.com/site/1c6pp">
+      <img src="https://clustrmaps.com/map_v2.png?cl=ffffff&w=a&t=n&d=fo3Xj7olZF7YZg5_yH_7P-P368nPCpN7U3VyR8fB2Ew&co=2d78ad&ct=ffffff" 
+           style="width: 100%; height: auto;" 
+           alt="Visitor Map">
+    </a>
   </div>
 </div>
